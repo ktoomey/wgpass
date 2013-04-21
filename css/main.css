@@ -3,19 +3,144 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 /* H5BP */
 html,button,input,select,textarea{color:#222;}body{font-size:1em;line-height:1.4;}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0;}img{vertical-align:middle;}fieldset{border:0;margin:0;padding:0;}textarea{resize:vertical;}.chromeframe{background:#ccc;color:#000;margin:.2em 0;padding:.2em 0;}::-moz-selection,::selection{background:#b3d4fc;text-shadow:none;}
 
-
-body { text-align: center; }
-h1,h2,h3,h4,h5,h6,p { margin-top: 0; }
-h1,h2,h3,h4,h5,h6 { line-height: 1; }
-header { padding: 20px 0 0; }
-header h1 { margin-bottom: 10px; }
-a {font-style: italic; }
+body { 
+	text-align: center; 
+	background: #222; 
+	background-image:url('../img/bgr-blackleather.png');
+	color: #ddd;
+	color: rgba(255,255,255,.6); 
+	font-family: 'Special Elite', cursive; 
+	font-size: 18px;
+	text-shadow: 0 -2px 0 #000;
+}
+.wrapper { width: 860px; margin: 0 auto; }
+h1,h2,h3,h4,h5,h6,p { margin: 0 0 10px; }
+h1,h2,h3,h4,h5,h6 { line-height: 1; font-weight: normal; font-family: 'Rye', cursive; }
+header { 
+	margin: 0 auto;
+	padding: 20px 0 0;
+}
+header h1 { 
+	margin-bottom: 10px; 
+	color: rgba(255,255,255,.8);
+	text-shadow: 0 -4px 0 #000;
+}
+h2 { font-size: 1.2em; text-shadow: none; color: rgba(255,255,255,.6); }
+p { text-shadow: 0 0 -1px #000; }
+strong { font-weight: normal; color: rgba(255,255,255,.99); }
+.headline-text { display: block; }
+.headline-forthe {  }
+.headline-passwords, .headline-manlyman { text-transform: uppercase; font-size: 3em; }
+a, a:visited {font-style: italic; color: #999; }
 .main { padding: 20px; }
-.big-button-contain { margin: 40px 0; }
-.big-button { padding: 10px 20px; background: #666; color: #fff; text-decoration: none; text-transform: uppercase; font-size: 2em; }
-.output { margin: 0 auto 20px; width: 300px; height: 25px; text-align: center; display: block; }
+.big-button-contain { margin: 20px 0; }
+a.big-button, a.big-button:visited { 
+	opacity: .9;
+	font-family: 'Alfa Slab One', cursive; 
+	font-style: normal; 
+	padding: 0 .5em; 
+	background: rgba(0,0,0,.2);
+	background-image:url('../img/bgr-rust.png');
+	color: rgba(0,0,0,.7); 
+	text-decoration: none; 
+	text-transform: uppercase; 
+	font-size: 2.4em; 
+	border-radius: 2px;
+	text-shadow: none;
+	border: solid 8px #000;
+}
+a.big-button:hover { opacity: 1; }
+.output { 
+	margin: 0 auto 40px; 
+	padding: 8px 0 0;
+	width: 85%;
+	line-height: 1.2;
+	background: #fff;
+	color: #000;
+	font-family: 'Special Elite', cursive;
+	text-align: center; 
+	display: block;
+	font-size: 2em;
+	border: solid 8px #000;
+}
 
-footer { font-size: .8em; font-style: italic; padding: 0 10%; }
+/* Based on http://codepen.io/joshnh/pen/ybFJI */
+.picture-frame {
+	position: relative;
+	height: 160px;
+	margin: 20px;
+}
+figure {
+	height: 160px;
+	width: 160px;
+	margin: -80px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	border: 1px solid;
+	border-color: #bbb #999;
+	box-shadow: 
+		0 2px 5px hsla(0,0%,0%,.4),
+	
+		inset 0 1px 0 #ccc,	
+		inset 1px 0 0 #aaa,
+		inset 0 -1px 0 #ccc,
+		inset -1px 0 0 #aaa,
+			
+		inset 0 2px 0 #c6c6c6,
+		inset 2px 0 0 #a6a6a6,
+		inset 0 -2px 0 #c6c6c6,
+		inset -2px 0 0 #a6a6a6,
+		
+		inset 0 3px 0 #c0c0c0,
+		inset 3px 0 0 #a0a0a0,
+		inset 0 -3px 0 #c0c0c0,
+		inset -3px 0 0 #a0a0a0,	
+		
+		inset 0 4px 0 #b9b9b9,
+		inset 4px 0 0 #999,
+		inset 0 -4px 0 #b9b9b9,
+		inset -4px 0 0 #999,
+		
+		inset 0 5px 0 #b6b6b6,
+		inset 5px 0 0 #969696,
+		inset 0 -5px 0 #b6b6b6,
+		inset -5px 0 0 #969696,
+		
+		inset 0 6px 0 #b0b0b0,
+		inset 6px 0 0 #909090,
+		inset 0 -6px 0 #b0b0b0,
+		inset -6px 0 0 #909090,
+		
+		inset 0 7px 0 #a9a9a9,
+		inset 7px 0 0 #898989,
+		inset 0 -7px 0 #a9a9a9,
+		inset -7px 0 0 #898989,
+		
+		inset 0 8px 0 #a6a6a6,
+		inset 8px 0 0 #868686,
+		inset 0 -8px 0 #a6a6a6,
+		inset -8px 0 0 #868686,
+		
+		inset 0 9px 0 #a0a0a0,
+		inset 9px 0 0 #808080,
+		inset 0 -9px 0 #a0a0a0,
+		inset -9px 0 0 #808080,
+		
+		inset 0 10px 0 #888,
+		inset 10px 0 0 #666,
+		inset 0 -10px 0 #888,
+		inset -10px 0 0 #666,
+		
+		inset 0 0 10px 10px hsla(0,0%,0%,.5);
+}
+figure img {
+  position: relative;
+  z-index: -1;
+  width: 100%;
+}
+
+footer { font-size: 14px; padding: 0 10%; }
 
 /* Helpers */
 .ir{background-color:transparent;border:0;overflow:hidden;text-indent:-9999px;} 
