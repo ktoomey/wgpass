@@ -20,4 +20,5 @@ $(function() {
 		$('.output').val(password);
 		$('#output-contain').removeClass('hidden');
 	});
+	$('.output').on('click',function() {$(this).select();});
 });
