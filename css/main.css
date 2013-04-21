@@ -7,15 +7,14 @@ body {
 	text-align: center; 
 	background: #222; 
 	background-image:url('../img/bgr-blueleather.png');
-	color: #ddd;
-	color: rgba(255,255,255,.6); 
+	color: #968e63;
 	font-family: 'Special Elite', cursive; 
 	font-size: 18px;
 	text-shadow: 0 -2px 0 #000, 0 2px 0 #000, 1px 0 0 #000, -1px 0 0 #000;
 }
 .wrapper { width: 760px; margin: 0 auto; position: relative; }
 h1,h2,h3,h4,h5,h6,p { margin: 0 0 10px; }
-h1,h2,h3,h4,h5,h6 { line-height: 1; font-weight: normal; font-family: 'Rye', cursive; color: #eee; }
+h1,h2,h3,h4,h5,h6 { line-height: 1; font-weight: normal; font-family: 'Rye', cursive; color: #fff; }
 header { 
 	margin: 0 auto;
 	padding: 20px 0 0;
@@ -24,12 +23,11 @@ header h1 {
 	margin-bottom: 10px; 
 	text-shadow: 0 -4px 0 #000, 0 4px 0 #000, -4px 0 0 #000, 4px 0 0 #000;
 }
-h2 { font-size: 1.5em; text-shadow: 0 -3px 0 #000, 0 3px 0 #000, 2px 0 0 #000, -2px 0 0 #000; }
-strong { font-weight: normal; color: rgba(255,255,255,.99); font-size: 1.2em; }
+h2 { font-size: 1.5em; color: #F5F5DC; text-shadow: 0 -3px 0 #000, 0 3px 0 #000, 2px 0 0 #000, -2px 0 0 #000; }
+strong { font-weight: normal; color: #F5F5DC; font-size: 1.2em; }
 .headline-text { display: block; }
-.headline-forthe {  }
 .headline-passwords, .headline-manlyman { text-transform: uppercase; font-size: 3em; }
-a, a:visited {font-style: italic; color: #eee; text-decoration: none; }
+a, a:visited {font-style: italic; color: #F5F5DC; text-decoration: none; }
 .main { padding: 20px; }
 .big-button-contain { margin: 20px 0; }
 a.big-button, a.big-button:visited { 
