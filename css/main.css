@@ -64,7 +64,7 @@ a.big-button:hover { opacity: 1; }
 	cursor: text;
 }
 .share-buttons { padding: 10px 0 30px; }
-.twitter-share-button {	position: relative; top: 5px; }
+.twitter-share-button {	position: relative; }
 .frames { position: absolute; top: 20px; }
 .frames-left { left: -120px; }
 /* Based on http://codepen.io/joshnh/pen/ybFJI */
