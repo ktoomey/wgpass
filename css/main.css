@@ -65,88 +65,9 @@ a.big-button:hover { opacity: 1; }
 }
 .share-buttons { padding: 10px 0 30px; }
 .twitter-share-button {	position: relative; }
-.frames { position: absolute; top: 20px; }
-.frames-left { left: -120px; }
-/* Based on http://codepen.io/joshnh/pen/ybFJI */
-.picture-frame {
-	position: relative;
-	height: 120px;
-	margin: 20px;
-	-ms-transform: rotate(3deg);
-	-o-transform: rotate(3deg);
-	-moz-transform: rotate(3deg);
-	-webkit-transform: rotate(3deg);
-	transform: rotate(3deg);
-}
-figure {
-	height: 120px;
-	width: 120px;
-	margin: -60px;
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	border: 1px solid;
-	border-color: #bbb #999;
-	box-shadow: 
-		0 2px 5px hsla(0,0%,0%,.4),
-	
-		inset 0 1px 0 #aaa,	
-		inset 1px 0 0 #888,
-		inset 0 -1px 0 #aaa,
-		inset -1px 0 0 #888,
-			
-		inset 0 2px 0 #888,
-		inset 2px 0 0 #555,
-		inset 0 -2px 0 #888,
-		inset -2px 0 0 #c6c6c6,
-		
-		inset 0 3px 0 #888,
-		inset 3px 0 0 #888,
-		inset 0 -3px 0 #888,
-		inset -3px 0 0 #888,	
-		
-		inset 0 4px 0 #999,
-		inset 4px 0 0 #777,
-		inset 0 -4px 0 #999,
-		inset -4px 0 0 #777,
-		
-		inset 0 5px 0 #999,
-		inset 5px 0 0 #666,
-		inset 0 -5px 0 #999,
-		inset -5px 0 0 #666,
-		
-		inset 0 6px 0 #999,
-		inset 6px 0 0 #666,
-		inset 0 -6px 0 #999,
-		inset -6px 0 0 #666,
-		
-		inset 0 7px 0 #888,
-		inset 7px 0 0 #555,
-		inset 0 -7px 0 #888,
-		inset -7px 0 0 #555,
-		
-		inset 0 8px 0 #888,
-		inset 8px 0 0 #555,
-		inset 0 -8px 0 #888,
-		inset -8px 0 0 #555,
-		
-		inset 0 9px 0 #888,
-		inset 9px 0 0 #555,
-		inset 0 -9px 0 #888,
-		inset -9px 0 0 #555,
-		
-		inset 0 10px 0 #555,
-		inset 10px 0 0 #333,
-		inset 0 -10px 0 #555,
-		inset -10px 0 0 #333,
-		
-		inset 0 0 10px 10px #000;
-}
-figure img {
-  position: relative;
-  z-index: -1;
-  width: 100%;
-}
+
+.sponsor { font-size: 16px; width: 580px; background: rgba(0,0,0,.3); border-radius: 20px; padding: 20px 20px 10px; margin: 0 auto 40px; text-align: left; }
+.sponsor-image { float: left; margin-right: 10px; }
 
 footer { font-size: 14px; padding: 0 10%; }
 
