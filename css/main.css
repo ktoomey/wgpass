@@ -66,8 +66,9 @@ a.big-button:hover { opacity: 1; }
 .share-buttons { padding: 10px 0 30px; }
 .twitter-share-button {	position: relative; }
 
-.sponsor { font-size: 16px; width: 580px; background: rgba(0,0,0,.3); border-radius: 20px; padding: 20px 20px 10px; margin: 0 auto 40px; text-align: left; }
-.sponsor-image { float: left; margin-right: 10px; }
+.sponsor { width: 720px; background: rgba(0,0,0,.3); border-radius: 20px; padding: 20px; margin: 0 auto 40px; text-align: left; }
+.sponsor-image { float: left; margin-right: 15px; }
+.sponsor-image img { border-radius: 4px; }
 
 footer { font-size: 14px; padding: 0 10%; }
 
