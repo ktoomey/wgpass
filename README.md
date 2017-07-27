@@ -1,6 +1,6 @@
-Passwords for the Manly Man
+Passwords for the Basic White Girl
 ==============
-Just a silly little project. [dfcb.github.io/manly-man-passwords](http://dfcb.github.io/manly-man-passwords/)
+Based off a silly little project. [dfcb.github.io/manly-man-passwords](http://dfcb.github.io/manly-man-passwords/)
 ----------------------------------------------------------
 
 *designed, written and built by [@johnpolacek](http://twitter.com/johnpolacek)*
